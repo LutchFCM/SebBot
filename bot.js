@@ -14,65 +14,50 @@ bot.on('message', message => {
         message.reply("DEPUIS JE NE FAIS QUE DES MOULEUH LEUH LEUH LEUH LEUH LEUH ! fdp");
         console.log('phrase');
     }
-
-    if (message.content === "Quoi ?"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
-    if (message.content === "quoi ?"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
-    if (message.content === "Quoi"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
-    if (message.content === "quoi"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
-    if (message.content === "koi ?"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
-    if (message.content === "koi"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
-    if (message.content === "Koi"){
-        message.channel.send("feur ! Ptn wlh jsuis drole");
-        console.log('feur');
-    }
-
+	
     if (message.content === "ntm"){
         message.channel.send("On avait dis pas les mamans :/");
         console.log('feur');
     }
 
-    if (message.content === ":gay_pride_flag:"){
-        message.channel.send("Gabriel ne te sens pas visé ! C'est qu'un drapeau");
-        console.log('gay');
+    if (message.content === "Quoi ?"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
     }
 
-    if (message.content === ":gay_pride_flag: "){
-        message.channel.send("Gabriel ne te sens pas visé ! C'est qu'un drapeau");
-        console.log('gay');
+    if (message.content === "quoi ?"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
     }
 
-    if (message.content === "https://discordapp.com/assets/9c252d28ca4980d65054a0258052983b.svg"){
-        message.channel.send("Gabriel ne te sens pas visé ! C'est qu'un drapeau");
-        console.log('gay');
+    if (message.content === "Quoi"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
     }
 
-    if (message.content === ":chant"){
-		if (!voiceChannel || voiceChannel.type !== 'voice') return msg.reply('Je te baise');
-		voiceChannel.join()
+    if (message.content === "quoi"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
+    }
+
+    if (message.content === "koi ?"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
+    }
+
+    if (message.content === "koi"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
+    }
+
+    if (message.content === "Koi"){
+        message.channel.send("feur ! wlh jsuis drole");
+        console.log('feur');
+    }
+	
+    if (message.content === ":help")
+	message.channel.send(Utilité du plugin: Aucune à part humilier Veltdog"
+	console.log('help')
     }
 
 });
